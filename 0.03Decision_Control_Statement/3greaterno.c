@@ -7,7 +7,7 @@ int main()
     scanf("%d%d%d",&a,&b,&c);
     if(a>b){
         if(a>c)
-        printf("a is greater number=%d",a);
+        printf("a is greatest number=%d",a);
         else
         printf("c is greater number=%d",c);
     }
