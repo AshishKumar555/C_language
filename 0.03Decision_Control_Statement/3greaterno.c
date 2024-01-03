@@ -16,7 +16,7 @@ int main()
        if(b>c)
        printf("b is the greatest number=%d",b);
        else
-       printf("c is greater number=%d",c);
+       printf("c is greatest number=%d",c);
     }
        
   return 0;
