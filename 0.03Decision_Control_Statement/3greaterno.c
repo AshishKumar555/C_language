@@ -3,7 +3,7 @@
 int main()
 {  //Greatest number between three digit:
     int a,b,c;
-    printf("Enter three numbers\n");
+    printf("Enter any three numbers\n");
     scanf("%d%d%d",&a,&b,&c);
     if(a>b){
         if(a>c)
