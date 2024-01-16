@@ -6,10 +6,10 @@ int main()
     printf("Enter side of triangle\n");
 
     scanf("%d%d%d",&x,&y,&z);
-    if(x+y>z&&y+z>x&&z+x>y)
+    if(x+y>z && y+z>x && z+x>y)
     printf("valid triangle");
     else
-    printf("Not valid triangle");
+    printf(" It is not valid triangle");
 
     return 0;
 }
