@@ -10,7 +10,7 @@ int main()
     if(x==0)
     printf("Zero");
     if(x<0)
-    printf("Negative number");
+    printf("Negative number\n");
 
         return 0;
 }
