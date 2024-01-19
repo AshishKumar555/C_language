@@ -3,7 +3,7 @@
 int main()
 {
     int x;
-    
+     printf("entr any number\n");
     scanf("%d",&x);
     if(x>0)
     printf("Positive number\n");
