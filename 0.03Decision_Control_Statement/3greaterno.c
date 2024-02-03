@@ -1,5 +1,4 @@
-#include<stdio.h>
-#include<conio.h>
+
 int main()
 {  //Greatest number between three digit:
     int a,b,c;
