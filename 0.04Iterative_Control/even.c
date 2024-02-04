@@ -1,6 +1,5 @@
 //first 10 even natural numbers:
-#include<stdio.h>
-#include<conio.h>
+
 
 int main()
 {
