@@ -10,6 +10,7 @@ int main()
     r=n%10;
     rev=rev*10+r;
     n=n/10;
-    }printf("the reverse number is=%d\n",rev);
+    }
+    printf("the reverse number is=%d\n",rev);
     return 0;
 }
