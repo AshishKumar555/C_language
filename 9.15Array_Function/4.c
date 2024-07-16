@@ -17,17 +17,21 @@ int main()
        if(dir==1)
       {
        temp=a[N-1];
-       for(i=N-1;i>0;i--)
-      a[i]=a[i-1];
-       a[0]=temp;
+       for(i=N-2;i>=0;i--){
+        //    a[i]=a[i-1];
+            a[i+1]=a[i];
+       }
+        a[0]=temp;
        }
        else
      {
       temp=a[0];
-      for(i=0;i<N;i++)
-    
-       a[i]=a[i+1];
+      for(i=0;i<N;i++){
+          a[i]=a[i+1];
+       
+      }
        a[N-1]=temp;
+       
        }
        pos--;
     }
