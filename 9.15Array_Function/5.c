@@ -17,7 +17,7 @@ int duplicate(int a[N])
     int i;
         for(i=0;i<N;i++)
     
-      if(a[i]==a[i+1])
+      if(a[i]==a[i+1]) // Adjacent means sata hua to i==i+1 me hi hoga
         return a[i];
       else{
         return -1;
