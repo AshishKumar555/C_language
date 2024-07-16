@@ -17,7 +17,7 @@ int duplicate(int a[N])
     int i,j,count=0;
     for(i=0;i<N-1;i++)
     {
-        for(j=i+1;j<=N;j++)
+        for(j=i+1;j<N;j++)
         {
             if(a[i]==a[j])
              count++;
