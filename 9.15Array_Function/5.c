@@ -18,7 +18,10 @@ int duplicate(int a[N])
         for(i=0;i<N;i++)
     
       if(a[i]==a[i+1])
-
+        return a[i];
+      else{
+        return -1;
+      }
     
-    return a[i];
+    
 }
