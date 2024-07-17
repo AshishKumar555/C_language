@@ -11,7 +11,7 @@ int main()
         {
             cntalp++;
         }
-        if(a[i]>='1'&&a[i]<='9')
+        if(a[i]>='0'&&a[i]<='9')
         {
             cntdig++;
         }
