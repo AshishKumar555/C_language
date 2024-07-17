@@ -7,7 +7,7 @@ int main()
     gets(a);
     for(i=0;a[i];i++)
     {
-        if(a[i]>='a'&&a[i]<='z')
+        if((a[i]>='a'&&a[i]<='z')||(a[i]>='A'&&a[i]<='Z'))
         {
             cntalp++;
         }
