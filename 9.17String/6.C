@@ -1,5 +1,31 @@
 #include<stdio.h>
 #include<string.h>
+// -----Two Pointer Approach is best --------------------!
+
+int length(char str[]){
+    int length=0;
+    for(int i=0;i<=str[i];i++){
+       length++;
+       
+    }
+    return length-1; 
+}
+void reverse(char str[]){
+    int start=0;
+    int count=length(str);
+    int end=count-1;
+    while(start<end){
+
+        char temp;
+        temp=str[end];
+        str[end]=str[start];
+        str[start]=temp;
+
+        start++;
+        end--;
+    }
+}
+//-----------------------------------------------------!
 int main()
 {
 
