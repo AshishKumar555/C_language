@@ -14,7 +14,7 @@ void swap(char a[],int i,int j)
 }
 int main()
 {
-    int i,start=0,end=0,flag=0;
+    int i=0,start=0,end=0,flag=0;
     char a[20]="JAY SHREE RAM";
     while(a[i]!='\0')
     {
